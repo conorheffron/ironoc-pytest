@@ -1,5 +1,9 @@
 # ironoc-pytest
 
+[![Python package](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-package.yml/badge.svg)](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-package.yml)
+
+[![Upload Python Package](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-publish.yml/badge.svg)](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-publish.yml)
+
 ## Technologies: 
 - pip, python 3.11, pytest, requests, pandas, & json
 
