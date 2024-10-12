@@ -1,13 +1,11 @@
-from setuptools import setup, find_packages
-from pip.req import parse_requirements
+from setuptools import setup
+import os
 
-install_reqs = parse_requirements('requirements.txt', session='hack')
-
-reqs = [str(ir.req) for ir in install_reqs]
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
 
 setup(
     name="ironoc-pytest",
-    version="1.5.1",
-    packages=find_packages(),
-    install_requires=reqs,
+    version="1.5.2",
+    install_requires=required,
 )
