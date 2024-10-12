@@ -53,7 +53,7 @@ jobs:
     environment:
       name: pypi
       # OPTIONAL: uncomment and update to include your PyPI project URL in the deployment status:
-      url: https://pypi.org/p/conorheffron/ironoc-pytest
+      # url: https://pypi.org/p/conorheffron/ironoc-pytest
 
     steps:
       - name: Retrieve release distributions
