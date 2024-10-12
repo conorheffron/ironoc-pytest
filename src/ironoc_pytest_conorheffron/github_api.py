@@ -1,5 +1,5 @@
 import json
-from github_model import GithubModel
+from .github_model import GithubModel
 import pandas as pd
 import requests
 
