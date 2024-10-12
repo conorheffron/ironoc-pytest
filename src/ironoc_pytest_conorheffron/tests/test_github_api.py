@@ -1,5 +1,5 @@
 import json
-from src.ironoc_pytest_conorheffron.github_api import GitHubClient
+from ironoc_pytest_conorheffron.github_api import GitHubClient
 
 def test_github_api_conorheffron_success():
     # given
