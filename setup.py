@@ -7,7 +7,7 @@ reqs = [str(ir.req) for ir in install_reqs]
 
 setup(
     name="ironoc-pytest",
-    version="1.3.3",
+    version="1.5.1",
     packages=find_packages(),
     install_requires=reqs,
 )
