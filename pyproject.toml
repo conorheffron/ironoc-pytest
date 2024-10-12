@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ironoc_pytest_conor_heffron"
-version = "1.6.2"
+version = "1.6.3"
 authors = [
   { name="Conor Heffron", email="conor.heffron@gmail.com" },
 ]
@@ -32,14 +32,9 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
 ]
 
-dependencies = [
-  "iniconfig >= 2.0.0",
-  "packaging >= 24.1",
-  "pluggy >= 1.5.0",
-  "pytest >= 8.3.3",
-  "pandas >= 2.2.3",
-  "requests >= 2.32.3"
-]
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
 
 [project.urls]
 Homepage = "https://github.com/conorheffron/ironoc-pytest"
