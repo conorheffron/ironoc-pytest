@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ironoc_pytest_conor_heffron"
+version = "1.6.0"
+authors = [
+  { name="Conor Heffron", email="conor.heffron@gmail.com" },
+]
+description = "A pytest example package"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE.txt"}
+classifiers = [
+  # How mature is this project? Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  "Development Status :: 3 - Alpha",
+
+  # Indicate who your project is intended for
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+
+  # Pick your license as you wish
+  "License :: OSI Approved :: MIT License",
+
+  # Specify the Python versions you support here. In particular, ensure
+  # that you indicate you support Python 3. These classifiers are *not*
+  # checked by "pip install". See instead "requires-python" key in this file.
+  "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+Homepage = "https://github.com/conorheffron/ironoc-pytest"
+Issues = "https://github.com/conorheffron/ironoc-pytest/issues"
