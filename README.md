@@ -15,6 +15,16 @@ pip install -r requirements.txt
 pytest -s
 ```
 
+## Usage
+```python
+import json
+from src.ironoc_pytest_conorheffron.github_api import GitHubClient
+
+gitHubClient = GitHubClient('conorheffron')
+result = gitHubClient.main()
+print(json.dumps(result, sort_keys=True, indent=4))
+```
+
 ## Output
 ```shell
 ironoc-pytest % pytest -s
