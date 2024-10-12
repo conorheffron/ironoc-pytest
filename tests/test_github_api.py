@@ -3,10 +3,10 @@ from src.ironoc_pytest_conorheffron.github_api import GitHubClient
 
 def test_github_api_conorheffron_success():
     # given
-    hubspotClient = GitHubClient('conorheffron')
+    gitHubClient = GitHubClient('conorheffron')
 
     # when
-    result = hubspotClient.main()
+    result = gitHubClient.main()
 
     # then
     print(json.dumps(result, sort_keys=True, indent=4))
@@ -14,10 +14,10 @@ def test_github_api_conorheffron_success():
 
 def test_github_api_meta_success():
     # given
-    hubspotClient = GitHubClient('meta')
+    gitHubClient = GitHubClient('meta')
 
     # when
-    result = hubspotClient.main()
+    result = gitHubClient.main()
 
     # then
     print(json.dumps(result, sort_keys=True, indent=4))
@@ -25,10 +25,10 @@ def test_github_api_meta_success():
 
 def test_github_api_ibm_cloud_success():
     # given
-    hubspotClient = GitHubClient('IBM-Cloud')
+    gitHubClient = GitHubClient('IBM-Cloud')
 
     # when
-    result = hubspotClient.main()
+    result = gitHubClient.main()
 
     # then
     print(json.dumps(result, sort_keys=True, indent=4))
