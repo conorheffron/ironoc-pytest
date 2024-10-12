@@ -6,6 +6,6 @@ with open('requirements.txt') as f:
 
 setup(
     name="ironoc-pytest",
-    version="2.1.0",
+    version="2.1.1",
     install_requires=required,
 )
