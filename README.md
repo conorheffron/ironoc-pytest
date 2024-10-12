@@ -3,12 +3,14 @@
 ## Technologies: 
 - pip, python 3.11, pytest, requests, pandas, & json
 
-# Package Usage
+## Package Usage
+### Install package
 ```shell
 python3 -m pip install ironoc-pytest-conor-heffron
 python3
 ```
 
+### Usage Example:
 ```python
 >>> import json
 >>> from ironoc_pytest_conorheffron.github_api import GitHubClient
