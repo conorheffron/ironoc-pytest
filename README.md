@@ -5,7 +5,7 @@
 [![Upload Python Package](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-publish.yml/badge.svg)](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-publish.yml)
 
 ## Package URL
-- [https://pypi.org/project/ironoc-pytest-conor-heffron/2.1.1/](https://pypi.org/project/ironoc-pytest-conor-heffron/2.1.1/)
+- [https://pypi.org/p/ironoc-pytest-conor-heffron/](https://pypi.org/p/ironoc-pytest-conor-heffron/)
 
 ## Technologies: 
 - pip, python 3.11, pytest, requests, pandas, & json
