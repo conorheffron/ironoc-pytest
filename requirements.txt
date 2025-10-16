@@ -3,4 +3,4 @@ packaging==25.0
 pluggy==1.6.0
 pytest==8.3.3
 pandas==2.3.3
-requests==2.32.4 
+requests==2.32.5 
