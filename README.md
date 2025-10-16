@@ -8,7 +8,7 @@
 - [https://pypi.org/p/ironoc-pytest-conor-heffron/](https://pypi.org/p/ironoc-pytest-conor-heffron/)
 
 ## Technologies: 
-- pip, python 3.11, pytest, requests, pandas, & json
+- pip, python 3.13, pytest, requests, pandas, & json
 
 ## Package Usage
 ### Install package & Set Environment
