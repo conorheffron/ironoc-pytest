@@ -12,7 +12,7 @@ class GithubModel:
         Parameters:
         login (String): GitHub User or Organisation Name
         id (int): GitHub User or Organisation ID
-        url (String): RGotHub Repository URL
+        url (String): GitHub Repository URL
 
         Returns: None
         """
