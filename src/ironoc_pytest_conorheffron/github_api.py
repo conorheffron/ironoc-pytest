@@ -3,6 +3,12 @@ from .github_model import GithubModel
 import pandas as pd
 import requests
 
+
+def get_data_frame_from_json(json_response):
+    df = pd.DataFrame(json_response)
+    return df
+
+
 class GitHubClient(object):
 
     def __init__(self, api_endpoint, token='', is_pretty=False) -> None:
@@ -12,14 +18,10 @@ class GitHubClient(object):
 
     def do_get(self):
         response = requests.get(self.url)
-        if(response.ok):
-            jsonResponse = json.loads(response.text or response.content)
-            return jsonResponse
+        if response.ok:
+            json_response = json.loads(response.text or response.content)
+            return json_response
         return None
-
-    def get_data_frame_from_json(self, json):
-        df = pd.DataFrame(json)
-        return df
 
     def main(self):
         # GET JSON data
@@ -28,7 +30,7 @@ class GitHubClient(object):
             print(json.dumps(result, indent=4))
 
         # parse JSON to data frame
-        df = self.get_data_frame_from_json(result)
+        df = get_data_frame_from_json(result)
 
         # Map response DF to model object
         result_dict = {}
