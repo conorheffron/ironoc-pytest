@@ -14,10 +14,10 @@ def test_github_api_conorheffron_success():
 
 def test_github_api_meta_success():
     # given
-    gitHubClient = GitHubClient('meta')
+    git_hub_client = GitHubClient('meta')
 
     # when
-    result = gitHubClient.main()
+    result = git_hub_client.main()
 
     # then
     print(json.dumps(result, sort_keys=True, indent=4))
@@ -25,10 +25,10 @@ def test_github_api_meta_success():
 
 def test_github_api_ibm_cloud_success():
     # given
-    gitHubClient = GitHubClient('IBM-Cloud')
+    git_hub_client = GitHubClient('IBM-Cloud')
 
     # when
-    result = gitHubClient.main()
+    result = git_hub_client.main()
 
     # then
     print(json.dumps(result, sort_keys=True, indent=4))

@@ -1,7 +1,7 @@
 import json
-from .github_model import GithubModel
 import pandas as pd
 import requests
+from .github_model import GithubModel
 
 
 def get_data_frame_from_json(json_response):
