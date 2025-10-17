@@ -1,3 +1,6 @@
+"""
+GitHub API Client class & helper functions
+"""
 import json
 import pandas as pd
 import requests
@@ -18,7 +21,7 @@ def get_data_frame_from_json(json_response):
     return df
 
 
-class GitHubClient(object):
+class GitHubClient:
     """
     GitHub client
     """

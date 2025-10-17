@@ -1,3 +1,6 @@
+"""
+GitHub Model Object
+"""
 class GithubModel:
 
     def __init__(self, login, id, url) -> None:

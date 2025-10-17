@@ -1,3 +1,6 @@
+"""
+GitHub Client Test Suite
+"""
 import json
 from ironoc_pytest_conorheffron.github_api import GitHubClient
 
