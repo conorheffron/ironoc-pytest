@@ -1,5 +1,7 @@
+"""
+Setup Project Meta & Config
+"""
 from setuptools import setup
-import os
 
 with open('requirements.txt') as f:
     required = f.read().splitlines()
