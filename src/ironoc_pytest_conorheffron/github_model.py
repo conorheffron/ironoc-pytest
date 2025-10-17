@@ -1,9 +1,11 @@
 """
-GitHub Model Object
+GitHub Model Module
 """
 class GithubModel:
-
-    def __init__(self, login, id, url) -> None:
+    """
+    GitHub Model Class
+    """
+    def __init__(self, login_name, login_id, url) -> None:
         """
         GithubModel constructor
 
@@ -14,6 +16,6 @@ class GithubModel:
 
         Returns: None
         """
-        self.login =  login
-        self.id = id
+        self.login =  login_name
+        self.id = login_id
         self.url = url
