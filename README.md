@@ -10,7 +10,34 @@
 ## Technologies: 
 - pip, python 3.13, pytest, requests, pandas, & json
 
-## Package Usage
+## Run Steps for Project Build & Tests Run:
+```shell
+# set environment
+python3 -m venv pytest-env
+source pytest-env/bin/activate
+
+# install libraries
+pip install -r requirements.txt
+
+# Run tests and show standard out messages
+pytest -s
+```
+
+## Run pytest from project Root Directory:
+```shell
+(pytest-env) ironoc-pytest % pytest
+=========================================================== test session starts ===========================================================
+platform darwin -- Python 3.11.6, pytest-8.3.3, pluggy-1.5.0
+rootdir: /Users/conorheffron/workspace/ironoc-pytest
+configfile: pyproject.toml
+collected 3 items                                                                                                                         
+
+tests/test_github_api.py ...                                                                                                        [100%]
+
+============================================================ 3 passed in 2.55s ============================================================
+```
+
+## Standalone `PyPi` Package Usage
 ### Install package & Set Environment
 ```shell
 python3 -m pip install ironoc-pytest-conor-heffron
@@ -251,31 +278,4 @@ pytest-env/lib/python3.11/site-packages/ironoc_pytest_conorheffron/tests/test_gi
 
 ===================================================================================== 3 passed in 0.54s =====================================================================================
 <ExitCode.OK: 0>
-```
-
-## Run Steps for Project Build & Tests Run:
-```shell
-# set environment
-python3 -m venv pytest-env
-source pytest-env/bin/activate
-
-# install libraries
-pip install -r requirements.txt
-
-# Run tests and show standard out messages
-pytest -s
-```
-
-## Run pytest from project Root Directory:
-```shell
-(pytest-env) ironoc-pytest % pytest
-=========================================================== test session starts ===========================================================
-platform darwin -- Python 3.11.6, pytest-8.3.3, pluggy-1.5.0
-rootdir: /Users/conorheffron/workspace/ironoc-pytest
-configfile: pyproject.toml
-collected 3 items                                                                                                                         
-
-tests/test_github_api.py ...                                                                                                        [100%]
-
-============================================================ 3 passed in 2.55s ============================================================
 ```
