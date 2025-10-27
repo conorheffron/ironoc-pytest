@@ -8,7 +8,7 @@
 - [https://pypi.org/p/ironoc-pytest-conor-heffron/](https://pypi.org/p/ironoc-pytest-conor-heffron/)
 
 ## Technologies: 
-- pip, python 3.13, pytest, requests, pandas, & json
+- pip3, python 3.14, pytest, requests, pandas, & json
 
 ## Run Steps for Project Build & Tests Run:
 ```shell
@@ -47,8 +47,7 @@ python3
 ```
 
 ### Usage Examples & Run Packages Tests:
-
-#### Run client call for user `conorheffron`
+ - #### Run client call for user `conorheffron`
 ```python
 >>> import json
 >>> from ironoc_pytest_conorheffron.github_api import GitHubClient
@@ -91,7 +90,7 @@ python3
 }
 ```
 
-#### Run client call for organisation `django`
+ - #### Run client call for organisation `django`
 ```python
 >>> git_client_django = GitHubClient('django')
 >>> result_django = git_client_django.main()
@@ -123,7 +122,7 @@ python3
 }
 ```
 
-#### Run all package tests
+ - #### Run all package tests
 ```python
 >>> import pytest
 >>> pytest.main(['--pyargs',  'ironoc_pytest_conorheffron.tests', '-s'])
