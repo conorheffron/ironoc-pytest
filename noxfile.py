@@ -10,8 +10,8 @@
 #
 #  and also to help confirm pull requests to this project.
 
-import nox
 import os
+import nox
 
 nox.options.sessions = ["lint"]
 
