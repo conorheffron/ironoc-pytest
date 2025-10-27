@@ -47,6 +47,8 @@ python3
 ```
 
 ### Usage Examples & Run Packages Tests:
+
+#### Run client call for user `conorheffron`
 ```python
 >>> import json
 >>> from ironoc_pytest_conorheffron.github_api import GitHubClient
@@ -87,10 +89,13 @@ python3
     "31": "{\"login\": \"conorheffron\", \"id\": 8218626, \"url\": \"https://github.com/conorheffron/scala-course\"}",
     "32": "{\"login\": \"conorheffron\", \"id\": 8218626, \"url\": \"https://github.com/conorheffron/skills-publish-packages\"}"
 }
->>> 
->>> gitHubClientDjango = GitHubClient('django')
->>> resultDjango = gitHubClientDjango.main()
->>> print(json.dumps(resultDjango, sort_keys=True, indent=4))
+```
+
+#### Run client call for organisation `django`
+```python
+>>> git_client_django = GitHubClient('django')
+>>> result_django = git_client_django.main()
+>>> print(json.dumps(result_django, sort_keys=True, indent=4))
 {
     "1": "{\"login\": \"django\", \"id\": 27804, \"url\": \"https://github.com/django/.github\"}",
     "2": "{\"login\": \"django\", \"id\": 27804, \"url\": \"https://github.com/django/asgiref\"}",
@@ -116,12 +121,14 @@ python3
     "22": "{\"login\": \"django\", \"id\": 27804, \"url\": \"https://github.com/django/dsf-working-groups\"}",
     "23": "{\"login\": \"django\", \"id\": 27804, \"url\": \"https://github.com/django/ticketbot\"}"
 }
+```
 
+#### Run all package tests
+```python
 >>> import pytest
 >>> pytest.main(['--pyargs',  'ironoc_pytest_conorheffron.tests', '-s'])
 ==================================================================================== test session starts ====================================================================================
-platform darwin -- Python 3.11.6, pytest-8.3.3, pluggy-1.5.0
-rootdir: /Users/conorheffron/workspace/pypi-test
+...
 collected 3 items                                                                                                                                                                           
 
 pytest-env/lib/python3.11/site-packages/ironoc_pytest_conorheffron/tests/test_github_api.py {
@@ -277,5 +284,4 @@ pytest-env/lib/python3.11/site-packages/ironoc_pytest_conorheffron/tests/test_gi
 .
 
 ===================================================================================== 3 passed in 0.54s =====================================================================================
-<ExitCode.OK: 0>
 ```
