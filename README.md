@@ -17,7 +17,7 @@ python3 -m venv pytest-env
 source pytest-env/bin/activate
 
 # install libraries
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Run tests and show standard out messages
 pytest -s
@@ -26,15 +26,15 @@ pytest -s
 ## Run pytest from project Root Directory:
 ```shell
 (pytest-env) ironoc-pytest % pytest
-=========================================================== test session starts ===========================================================
-platform darwin -- Python 3.11.6, pytest-8.3.3, pluggy-1.5.0
+=================================================================================================== test session starts ====================================================================================================
+platform darwin -- Python 3.14.0, pytest-8.4.2, pluggy-1.6.0
 rootdir: /Users/conorheffron/workspace/ironoc-pytest
 configfile: pyproject.toml
-collected 3 items                                                                                                                         
+collected 3 items                                                                                                                                                                                                          
 
-tests/test_github_api.py ...                                                                                                        [100%]
+src/ironoc_pytest_conorheffron/tests/test_github_api.py ...                                                                                                                                                          [100%]
 
-============================================================ 3 passed in 2.55s ============================================================
+==================================================================================================== 3 passed in 1.05s =====================================================================================================
 ```
 
 ## Standalone `PyPi` Package Usage
@@ -50,8 +50,8 @@ python3
 ```python
 >>> import json
 >>> from ironoc_pytest_conorheffron.github_api import GitHubClient
->>> gitHubClient = GitHubClient('conorheffron')
->>> result = gitHubClient.main()
+>>> git_hub_client = GitHubClient('conorheffron')
+>>> result = git_hub_client.main()
 >>> print(json.dumps(result, sort_keys=True, indent=4))
 {
     "1": "{\"login\": \"conorheffron\", \"id\": 8218626, \"url\": \"https://github.com/conorheffron/bio-cell-red-edge\"}",
