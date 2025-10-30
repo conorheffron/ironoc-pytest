@@ -1,7 +1,5 @@
 # ironoc-pytest
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
 [![Python package](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-package.yml/badge.svg)](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-package.yml)
 
 [![Upload Python Package](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-publish.yml/badge.svg)](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-publish.yml)
