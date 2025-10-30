@@ -1,5 +1,7 @@
 # ironoc-pytest
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [![Python package](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-package.yml/badge.svg)](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-package.yml)
 
 [![Upload Python Package](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-publish.yml/badge.svg)](https://github.com/conorheffron/ironoc-pytest/actions/workflows/python-publish.yml)
