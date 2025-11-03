@@ -24,4 +24,4 @@ setuptools==80.9.0
 six==1.17.0
 tzdata==2025.2
 urllib3==2.5.0
-virtualenv==20.35.3
+virtualenv==20.35.4
