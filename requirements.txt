@@ -10,7 +10,7 @@ humanize==4.15.0
 idna==3.11
 iniconfig==2.3.0
 nox==2025.11.12
-numpy==2.4.0
+numpy==2.4.1
 packaging==25.0
 pandas==2.3.3
 platformdirs==4.5.1
