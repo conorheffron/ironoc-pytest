@@ -8,6 +8,6 @@ with open('requirements.txt') as f:
 
 setup(
     name="ironoc-pytest",
-    version="2.2.8",
+    version="2.2.9",
     install_requires=required,
 )
