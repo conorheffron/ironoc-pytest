@@ -12,7 +12,7 @@ iniconfig==2.3.0
 nox==2025.11.12
 numpy==2.4.1
 packaging==25.0
-pandas==2.3.3
+pandas==3.0.0
 platformdirs==4.5.1
 pluggy==1.6.0
 Pygments==2.19.2
