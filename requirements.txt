@@ -11,7 +11,7 @@ idna==3.14
 iniconfig==2.3.0
 nox==2026.4.10
 numpy==2.4.4
-packaging==26.0
+packaging==26.2
 pandas==3.0.2
 platformdirs==4.9.6
 pluggy==1.6.0
