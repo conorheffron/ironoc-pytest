@@ -20,7 +20,7 @@ pytest==9.1.1
 python-dateutil==2.9.0.post0
 pytz==2026.2
 requests==2.34.2
-setuptools==82.0.1
+setuptools==83.0.0
 six==1.17.0
 tzdata==2026.2
 urllib3==2.7.0
