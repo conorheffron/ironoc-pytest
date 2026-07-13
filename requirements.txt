@@ -9,7 +9,7 @@ filelock==3.29.5
 humanize==4.16.0
 idna==3.18
 iniconfig==2.3.0
-nox==2026.4.10
+nox==2026.7.11
 numpy==2.5.1
 packaging==26.2
 pandas==3.0.3
