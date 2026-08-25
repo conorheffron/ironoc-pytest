@@ -15,7 +15,7 @@ packaging==26.3
 pandas==3.0.5
 platformdirs==4.11.0
 pluggy==1.6.0
-Pygments==2.20.0
+Pygments==2.21.0
 pytest==9.1.1
 python-dateutil==2.9.0.post0
 pytz==2026.3.post1
